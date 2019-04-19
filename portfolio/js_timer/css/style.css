@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: "Roboto Slab";
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/main_bg.jpg) 100% 100%;
+}
+.timer {
+    text-align: center;
+    padding-top: 150px;
+}
+.timer-title {
+    font-size: 36px;
+    color: #c78030;
+}
+.timer-action {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 40px;
+}
+.timer-numbers {
+    margin-top: 40px;
+    font-size: 90px;
+    color: #c78030;
+}
+.timer-numbers:after {
+    content: '';
+    display: block;
+    width: 20%;
+    height: 4px;
+    background-color: #c78030;
+    margin: 4px auto 0;
+}
+.timer-text {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    color: #ffffff;
+}
+.timer-text span {
+    padding-right: 10px;
+}
+

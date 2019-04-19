@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'open_sanssemibold';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/opensans/opensans-semibold-webfont.woff2') format('woff2'),
+    url('../fonts/opensans/opensans-semibold-webfont.woff') format('woff'),
+    url('../fonts/opensans/opensans-semibold-webfont.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'open_sansbold';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/opensans/opensans-bold-webfont.woff2') format('woff2'),
+    url('../fonts/opensans/opensans-bold-webfont.woff') format('woff'),
+    url('../fonts/opensans/opensans-bold-webfont.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'open_sanslight';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/opensans/opensans-light-webfont.woff2') format('woff2'),
+    url('../fonts/opensans/opensans-light-webfont.woff') format('woff'),
+    url('../fonts/opensans/opensans-light-webfont.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'lobsterregular';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/lobster/lobster-regular-webfont.woff2') format('woff2'),
+    url('../fonts/lobster/lobster-regular-webfont.woff') format('woff'),
+    url('../fonts/lobster/lobster-regular.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'evolventaregular';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/evolventa/10359-webfont.woff2') format('woff2'),
+    url('../fonts/evolventa/10359-webfont.woff2') format('woff'),
+    url('../fonts/evolventa/10359.ttf') format('ttf');
+}

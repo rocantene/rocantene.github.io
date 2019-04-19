@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Danila Kurganov | Attachment</title>
+</head>
+<body>
+<div class="container">
+        <h1>Шаблон для изменения ковычек в тексте</h1>
+    <section class="wrapper">
+        <input id="button" type="checkbox">
+        <label class="label" for="button" >Кликни на меня</label>
+        <div class="modal">
+            <div class="main">
+                <form action="#" id="form" class="form">
+                    <textarea id="text" class="message" name="text" cols="20" rows="20" placeholder="Скопируйте свой текст или загрузите пример и нажмите изменить"></textarea>
+                    <div class="inputs">
+                        <input id="input_check" class="input_name input_name_check" name="check" type="submit" value="Изменить"/>
+                        <input id="input_load" class="input_name input_name_load" name="load" type="button" value="Загрузить"/>
+                        <input id="input_clear" class="input_name input_name_clear" name="reset" type="reset" value="Отчистить"/>
+                    </div>
+                </form>
+            </div>
+            <label for="button" class="close"></label>
+        </div>
+    </section>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>

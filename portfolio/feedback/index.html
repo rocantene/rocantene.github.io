@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Danila Kurganov | Feedback</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="libs.min.js"></script>
+</head>
+<body>
+<main class="main">
+    <form id="form" class="form">
+        <div class="left-decor"></div>
+        <div class="right-decor"></div>
+        <div class="wrapper">
+            <h2><b>Форма</b> обратной связи</h2>
+            <input id="input_name" class="input_name" type="text" name="name" placeholder="Имя" required="">
+            <div id="form_error_name" class="form_error"></div>
+            <input id="input_phone" class="input_name" type="text" name="phone"  title="+7(000)000-0000" placeholder="Телефон" required="">
+            <div id="form_error_phone" class="form_error"></div>
+            <input id="input_email" class="input_name" type="text" name="email" placeholder="E-mail" required="">
+            <div id="form_error_email" class="form_error"></div>
+            <input id="input_town" class="input_name" type="text" name="town" placeholder="Ваш город">
+            <textarea id="text" class="text" name="text" rows="3" placeholder="Сообщение"></textarea>
+            <input id="input_submit" class="input_name input_sent" type="submit" name="submit" value="Отправить">
+            <input id="input_cancel" class="input_name input_reset" type="reset" name="cancel" value="Сбросить">
+
+        </div>
+    </form>
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
